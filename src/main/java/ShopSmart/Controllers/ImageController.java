@@ -4,7 +4,7 @@ package ShopSmart.Controllers;
 import ShopSmart.dto.ImageDTO;
 import ShopSmart.model.Image;
 import ShopSmart.response.ApiResponse;
-import ShopSmart.Service.Image.IImageService;
+import ShopSmart.ShopService.Image.IImageService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.HttpHeaders;

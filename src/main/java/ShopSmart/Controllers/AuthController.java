@@ -5,7 +5,7 @@ import ShopSmart.dto.UserDTO;
 import ShopSmart.request.LoginRequest;
 import ShopSmart.request.SignupRequest;
 import ShopSmart.response.TokenResponse;
-import ShopSmart.Service.Auth.AuthService;
+import ShopSmart.ShopService.Auth.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -2,7 +2,7 @@ package ShopSmart.Controllers;
 
 import ShopSmart.request.AddProductRequest;
 import ShopSmart.response.ApiResponse;
-import ShopSmart.Service.Product.IProductService;
+import ShopSmart.ShopService.Product.IProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
