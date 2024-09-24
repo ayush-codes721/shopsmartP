@@ -1,14 +1,12 @@
 package ShopSmart.Controllers;
 
 import ShopSmart.dto.CategoryDTO;
-import ShopSmart.model.Category;
 import ShopSmart.response.ApiResponse;
-import ShopSmart.service.Category.ICategoryService;
+import ShopSmart.Service.Category.ICategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.Map;
 
 @RestController

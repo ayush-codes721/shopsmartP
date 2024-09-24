@@ -1,8 +1,8 @@
 package ShopSmart.Filter;
 
 import ShopSmart.model.User;
-import ShopSmart.service.JWT.JwtService;
-import ShopSmart.service.User.UserService;
+import ShopSmart.Service.JWT.JwtService;
+import ShopSmart.Service.User.UserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

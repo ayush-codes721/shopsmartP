@@ -3,14 +3,13 @@ package ShopSmart.Controllers;
 import ShopSmart.dto.CartDTOS.CartDTO;
 import ShopSmart.response.ApiResponse;
 import ShopSmart.response.CartApiResponse;
-import ShopSmart.service.Cart.ICartItemService;
-import ShopSmart.service.Cart.ICartService;
+import ShopSmart.Service.Cart.ICartItemService;
+import ShopSmart.Service.Cart.ICartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 @RestController
 @RequestMapping("${api.prefix}/cart")
